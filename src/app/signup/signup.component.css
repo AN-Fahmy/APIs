@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Matemasie&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.form{
+  box-shadow: 0 0 3px 3px rgba(172, 255, 47, 0.397);
+}
+h1{
+  font-family:"Matemasie", sans-serif;
+  text-shadow: 5px 5px 3px #aaa;
+}
+label,input{
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-weight: 600;
+  transition: all .5s;
+}
+input:focus{
+  box-shadow: 0 0 3px 3px rgba(172, 255, 47, 0.596) !important;
+  border: none !important;
+}
+.btn{
+  background-color: rgb(128, 202, 16);
+}
+.btn:hover{
+  background-color: greenyellow;
+  color: #474747 !important;
+}
+.back{
+  box-shadow: 0 0 3px 3px #aaa;
+  width: fit-content;
+  cursor: pointer;
+  transition: all .5s;
+}
+.back:hover{
+  background-color: #aaa;
+  color: #fff;
+}
+.back i{
+  transform: rotate(180deg);
+}

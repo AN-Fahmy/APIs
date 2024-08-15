@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Matemasie&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  transition: all .5s;
+}
+p,span,button{
+  font-family: "Raleway", sans-serif;
+}
+h1{
+  font-family:"Matemasie", sans-serif;
+  text-shadow: 5px 5px 3px #aaa;
+}
+h2,h3{
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-weight: bold;
+}
+.header button{
+  background-color: rgb(111, 173, 18);
+  color: #fff;
+}
+.header button:hover{
+  background-color: rgb(142, 221, 23);
+}
+.logo i{
+  font-size: 30px;
+  cursor: pointer;
+  color: rgb(111, 173, 18);
+}
+.logo i:hover{
+  color: rgb(142, 221, 23);
+}
+img{
+  height: 200px;
+  object-fit: contain;
+}
+.card:hover img{
+  transform: scale(1.1)rotate(10deg)
+}
+.image-card{
+  overflow: hidden;
+}
+.card{
+  box-shadow: 0 0 2px 2px #ccc;
+  overflow: hidden;
+}
+.card:hover{
+  box-shadow: 0 0 2px 2px greenyellow;
+}
+.card .btn{
+  transform: translateY(120%);
+  background-color: rgb(128, 202, 16);
+}
+.card .btn:hover{
+  background-color: greenyellow;
+  color: #474747 !important;
+
+}
+.card:hover .btn{
+  transform: translateY(0);
+}
